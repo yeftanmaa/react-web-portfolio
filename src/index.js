@@ -4,6 +4,7 @@ import './index.css';
 import SaveButton from './atoms/saveButton';
 import Navbar from './molecules/navbar';
 import JumbotronLanding from './molecules/jumbotronlanding';
+import ProfileSectionLanding from './molecules/profilesectionanding';
 import reportWebVitals from './reportWebVitals';
 
 // mui import font
@@ -28,6 +29,7 @@ root.render(
     <React.StrictMode>
     <Navbar />
     <JumbotronLanding />
+    <ProfileSectionLanding />
     <SaveButton />
   </React.StrictMode>
   </ThemeProvider>

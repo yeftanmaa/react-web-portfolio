@@ -3,7 +3,7 @@ import { makeStyles } from "@mui/styles";
 export default makeStyles({
     
     // Jumbotron landing
-    container: {
+    container_jumbotronSection: {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -13,7 +13,36 @@ export default makeStyles({
 
     header: {
         textAlign: 'center',
-        color: 'white'
+        color: 'white',
+        fontSize: ['85px', '!important']
+    },
+
+    arrowIcon: {
+        position: 'absolute',
+        bottom: 100,
+        color: 'white',
+        fontSize: ['70px', '!important']
+    },
+
+    // Profile Section Landing
+    container_profileSection: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        columnGap: '80px'
+    },
+
+    profileImg: {
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+    },
+
+    profileSectionsubTitle: {
+        color: '#878787'
+    },
+
+    profileSectionFooter: {
+        color: '#BEBEBE'
     }
     
   });
