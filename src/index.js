@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import SaveButton from './atoms/saveButton';
 import Navbar from './molecules/navbar';
-import App from './App';
+import JumbotronLanding from './molecules/jumbotronlanding';
 import reportWebVitals from './reportWebVitals';
 
 // mui import font
@@ -27,7 +27,7 @@ root.render(
   <ThemeProvider theme={theme}>
     <React.StrictMode>
     <Navbar />
-    <App />
+    <JumbotronLanding />
     <SaveButton />
   </React.StrictMode>
   </ThemeProvider>
