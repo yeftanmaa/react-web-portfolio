@@ -34,7 +34,7 @@ export default makeStyles({
 
     profileImg: {
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
+        backgroundSize: 'contain'
     },
 
     profileSectionsubTitle: {
@@ -43,6 +43,30 @@ export default makeStyles({
 
     profileSectionFooter: {
         color: '#BEBEBE'
+    },
+
+    // My Aim Section Landing
+    wrapper_myaimsection: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+    },
+
+    container_myaimsection: {
+        flexDirection: 'column',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+    },
+
+    header_myaimsection: {
+        textAlign: "left",
+        fontSize: ['75px', '!important']
+    },
+
+    footer_myaimsection: {
+        fontSize: ['24px', '!important']
     }
     
   });
