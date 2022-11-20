@@ -67,6 +67,37 @@ export default makeStyles({
 
     footer_myaimsection: {
         fontSize: ['24px', '!important']
+    },
+
+    // Selected Work Section Landing
+    wrapper_selectedworksection: {
+       display: 'flex',
+       justifyContent: 'flex-start',
+       alignItems: 'center'
+    },
+
+    container_selectedworksection: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        margin: 'auto',
+        width: '1750px'
+    },
+
+    header_selectedworksection: {
+        fontSize: ['90px', '!important']
+    },
+
+    item2_selectedworksection: {
+        display: 'flex',
+        flexDirection: 'column',
+        position: 'relative',
+        right: 0,
+        gap : '30px'
+    },
+
+    footer_selectedworksection: {
+        fontSize: ['18px', '!important']
     }
     
   });

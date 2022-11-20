@@ -15,7 +15,7 @@ function MyAimSection() {
             </Box>
 
             <Box sx={{width: 800, color: '#A0A0A0'}}>
-                <Typography fontFamily='Source Code Pro' fontWeight='200' className={classes.footer_myaimsection}>Which I believe that design & technology can adds values faster than it costs.</Typography>
+                <Typography fontFamily='Source Code Pro' fontWeight='200' fontStyle='italic' className={classes.footer_myaimsection}>Which I believe that design & technology can adds values faster than it costs.</Typography>
             </Box>
         </Box>
     </Paper>
