@@ -81,7 +81,8 @@ export default makeStyles({
         justifyContent: 'space-between',
         alignItems: 'center',
         margin: 'auto',
-        width: '1750px'
+        width: '1800px',
+        padding: '15px'
     },
 
     header_selectedworksection: {

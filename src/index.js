@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './molecules/navbar';
-import JumbotronLanding from './molecules/jumbotronlanding';
-import ProfileSectionLanding from './molecules/profilesectionanding';
-import MyAimSection from './molecules/myaimsection';
-import SelectedWorkLanding from './molecules/selectedworklanding';
 import reportWebVitals from './reportWebVitals';
+import PageMe from './organism/page-me';
 
 // mui import font
 import { ThemeProvider, createTheme } from '@mui/material/styles';
@@ -28,12 +24,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ThemeProvider theme={theme}>
     <React.StrictMode>
-    <Navbar />
-    <JumbotronLanding />
-    <ProfileSectionLanding />
-    <MyAimSection />
-    <SelectedWorkLanding />
-  </React.StrictMode>
+      <PageMe />
+    </React.StrictMode>
   </ThemeProvider>
 );
 

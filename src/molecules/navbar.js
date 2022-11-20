@@ -8,7 +8,7 @@ function Navbar() {
       <AppBar position="fixed" style={{ background: '#FFF'}} elevation={0}>
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
-            <img src={logoIcon} alt="Logo of my portfolio" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/>
+            <a href='#'><img src={logoIcon} alt="Logo of my portfolio" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/></a>
           </Box>
           <Button style={{color: 'black'}} sx={{textTransform: 'lowercase'}}>.me()</Button>
           <Button style={{color: 'black'}} sx={{textTransform: 'lowercase'}}>.about()</Button>

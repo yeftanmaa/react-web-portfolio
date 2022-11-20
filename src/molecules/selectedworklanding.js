@@ -22,8 +22,8 @@ function SelectedWorkLanding() {
             </Box>
 
             <Box className={classes.item2_selectedworksection}>
-                <img src={linkedinLogo} alt="Linkedin logo directed to my linkedin profile" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/>
-                <img src={githubLogo} alt="Github logo directed to my github profile" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/>
+                <a href='https://www.linkedin.com/in/yeftanma/' target={'_blank'}><img src={linkedinLogo} alt="Linkedin logo directed to my linkedin profile" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/></a>
+                <a href='https://github.com/yeftanmaa' target={'_blank'}><img src={githubLogo} alt="Github logo directed to my github profile" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/></a>
             </Box>
         </Box>
     </Paper>
