@@ -2,10 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import PageMe from './organism/page-me';
-
-// mui import font
 import { ThemeProvider, createTheme } from '@mui/material/styles';
+import App from './App';
 
 // global font family
 const theme = createTheme({
@@ -24,9 +22,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ThemeProvider theme={theme}>
     <React.StrictMode>
-      <PageMe />
+      <App />
     </React.StrictMode>
   </ThemeProvider>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

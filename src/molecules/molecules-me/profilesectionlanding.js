@@ -1,7 +1,7 @@
 import { Box, Paper, Typography } from '@mui/material';
 import React from 'react';
 import useStyles from './styles';
-import Image from '../assets/images/profile-img.png';
+import Image from '../../assets/images/profile-img.png';
 
 function ProfileSectionLanding() {
 

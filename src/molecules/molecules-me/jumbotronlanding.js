@@ -1,6 +1,6 @@
 import { Paper, SvgIcon, Typography } from '@mui/material';
 import React from 'react';
-import Image from '../assets/images/landing_jumbotron-bg-img.png';
+import Image from '../../assets/images/landing_jumbotron-bg-img.png';
 import useStyles from './styles';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 

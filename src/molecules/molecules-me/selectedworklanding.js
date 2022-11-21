@@ -2,8 +2,8 @@ import React from 'react';
 import { Paper, Typography } from '@mui/material';
 import useStyles from './styles';
 import { Box } from '@mui/system';
-import githubLogo from '../assets/icons/github-logo.png';
-import linkedinLogo from '../assets/icons/linkedin-logo.png';
+import githubLogo from '../../assets/icons/github-logo.png';
+import linkedinLogo from '../../assets/icons/linkedin-logo.png';
 
 function SelectedWorkLanding() {
   const classes = useStyles();

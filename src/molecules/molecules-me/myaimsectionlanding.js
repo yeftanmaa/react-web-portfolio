@@ -1,6 +1,6 @@
 import React from 'react';
 import { Paper, Typography } from '@mui/material';
-import Image from '../assets/images/landing_bg-img-2.png';
+import Image from '../../assets/images/landing_bg-img-2.png';
 import useStyles from './styles';
 import { Box } from '@mui/system';
 
