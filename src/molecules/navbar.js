@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppBar, Box, Toolbar, Button } from '@mui/material';
-import logoIcon from '../assets/images/logo.svg';
+import logoIcon from '../assets/images/logo2.svg';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
       <AppBar position="fixed" style={{ background: '#FFF'}} elevation={0}>
         <Toolbar>
           <Box sx={{ flexGrow: 1 }}>
-            <a href='#'><img src={logoIcon} alt="Logo of my portfolio" width='50px' style={{ marginTop: '7px', marginRight: '20px'}}/></a>
+            <a href={navigateToMe}><img src={logoIcon} alt="Logo of my portfolio" width='45px' style={{ marginTop: '7px', marginRight: '20px'}} onClick={navigateToMe}/></a>
           </Box>
           
           <Button sx={{ color: 'black', textTransform: 'lowercase' }} onClick={navigateToMe}>{'.me()'}</Button>
