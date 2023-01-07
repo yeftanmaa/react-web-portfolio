@@ -11,3 +11,9 @@
 @mixin heading {
     font-family: $text-description;
 }
+
+@mixin navbarLink {
+    color: $color-primary !important;
+    font-family: $text-subheading !important;
+    text-transform: lowercase !important;
+}

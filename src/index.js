@@ -5,17 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import App from './App';
 
-// global font family
-const theme = createTheme({
-  typography: {
-    fontFamily: [
-      'IBM Plex Mono',
-      'Montserrat',
-      'Inter',
-      'Source Code Pro'
-    ].join(','),
-  },
-});
+const theme = createTheme({});
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

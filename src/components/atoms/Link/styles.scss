@@ -1,0 +1,5 @@
+@import "../../sass/global-styles.scss";
+
+.property {
+    @include navbarLink;
+}
