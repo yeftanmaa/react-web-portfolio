@@ -1,0 +1,8 @@
+@import './abstracts/color';
+@import './abstracts/mixins';
+@import './abstracts/typography';
+
+h1 {
+    @include heading;
+    color: $color-highlight;
+}

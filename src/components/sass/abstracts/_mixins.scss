@@ -1,0 +1,13 @@
+@import 'typography';
+@import 'color';
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+@mixin heading {
+    font-family: $text-description;
+}
